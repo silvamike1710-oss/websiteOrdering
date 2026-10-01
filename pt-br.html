@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#9CA3EF" />
+    <title>C:\DEV&gt; — Sites personalizados sob encomenda</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <div class="window">
+      <header class="titlebar">
+        <div class="title">
+          <span class="title-icon" aria-hidden="true">W</span>
+          <span>C:\DEV&gt; — Central de pedidos</span>
+        </div>
+        <div class="window-controls" aria-hidden="true">
+          <span>_</span><span>□</span><span>×</span>
+        </div>
+      </header>
+      <nav class="menubar" aria-label="Navegação principal">
+        <a href="#services">Serviços</a>
+        <a href="#work">Confira meu trabalho</a>
+        <a href="#order">Faça seu pedido</a>
+        <a href="#faq">Dúvidas</a>
+        <a href="index.html?lang=en" lang="en">English</a>
+        <a class="language-switch" href="pt-br.html?lang=pt-BR" lang="pt-BR" aria-current="page">Português</a>
+      </nav>
+
+      <main>
+        <section class="hero" aria-labelledby="hero-title">
+          <div>
+            <p class="eyebrow">Design e desenvolvimento web independente</p>
+            <h1 id="hero-title">Um site com a sua <em>cara.</em></h1>
+            <p>
+              Crio sites rápidos e acolhedores para pequenos negócios, pessoas
+              criativas e grandes ideias. Conte o que você precisa e vamos
+              planejar juntos.
+            </p>
+          </div>
+          <div class="hero-sticker" aria-label="Feito para você">
+            FEITO<br />PRA VOCÊ<br />:)
+          </div>
+        </section>
+
+        <section class="section" id="work" aria-labelledby="work-title">
+          <div class="section-heading">
+            <h2 id="work-title">Confira meu trabalho</h2>
+          </div>
+          <div class="work-grid">
+            <a class="work-item" href="https://silvamike1710-oss.github.io/barbershop-3/#" target="_blank" rel="noopener noreferrer">
+              Barbearia — Projeto 3
+            </a>
+            <a class="work-item" href="https://silvamike1710-oss.github.io/BolosDaSalette/" target="_blank" rel="noopener noreferrer">
+              Bolos da Salette
+            </a>
+            <a class="work-item" href="https://silvamike1710-oss.github.io/barbershop-2/" target="_blank" rel="noopener noreferrer">
+              Barbearia — Projeto 2
+            </a>
+            <a class="work-item" href="https://silvamike1710-oss.github.io/scheduling-project/#agendar" target="_blank" rel="noopener noreferrer">
+              Projeto de agendamento
+            </a>
+            <a class="work-item" href="https://silvamike1710-oss.github.io/barbershop-1/" target="_blank" rel="noopener noreferrer">
+              Barbearia — Projeto 1
+            </a>
+          </div>
+        </section>
+
+        <section class="section" id="services" aria-labelledby="services-title">
+          <div class="section-heading">
+            <h2 id="services-title">Escolha por onde começar</h2>
+          </div>
+          <div class="packages">
+            <article class="package">
+              <h3>Site de uma página</h3>
+              <p class="price">A partir de R$ 650</p>
+              <p>Uma página caprichada para apresentar seu trabalho, serviço ou evento.</p>
+            </article>
+            <article class="package">
+              <h3>Site completo</h3>
+              <p class="price">A partir de R$ 2.000</p>
+              <p>Um site personalizado com várias páginas para contar sua história.</p>
+            </article>
+            <article class="package">
+              <h3>Projeto personalizado</h3>
+              <p class="price">Vamos conversar</p>
+              <p>Lojas virtuais, recursos especiais, reformulações e outras ideias.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="faq" aria-labelledby="faq-title">
+          <div class="section-heading">
+            <h2 id="faq-title">Perguntas frequentes</h2>
+          </div>
+          <div class="faq-list">
+            <details class="faq-item">
+              <summary>Quanto tempo leva para criar um site?</summary>
+              <p>A maioria dos projetos leva de 2 a 4 semanas, dependendo do escopo e da rapidez para recebermos o conteúdo e o retorno.</p>
+            </details>
+            <details class="faq-item">
+              <summary>O que você precisa para começar?</summary>
+              <p>Um resumo dos seus objetivos, das páginas ou recursos necessários e dos textos, imagens ou materiais da sua marca que já tiver.</p>
+            </details>
+            <details class="faq-item">
+              <summary>Posso pedir alterações depois que o site for publicado?</summary>
+              <p>Sim. Vamos revisar o site final juntos, e você pode conversar comigo sobre atualizações ou suporte contínuo quando precisar.</p>
+            </details>
+          </div>
+        </section>
+
+        <section class="section" id="order" aria-labelledby="order-title">
+          <div class="section-heading">
+            <h2 id="order-title">Comece seu pedido</h2>
+          </div>
+          <div class="order-panel">
+            <div class="order-copy">
+              <p class="eyebrow">Sem compromisso, só um primeiro oi</p>
+              <h3>Conte um pouco sobre seu projeto.</h3>
+              <p>
+                Preencha o básico e seu aplicativo de e-mail abrirá uma mensagem
+                pronta para enviar. Depois, conversamos sobre os próximos passos.
+              </p>
+            </div>
+            <form id="order-form">
+              <label>
+                Seu nome
+                <input name="name" autocomplete="name" required />
+              </label>
+              <label>
+                Seu e-mail
+                <input name="email" type="email" autocomplete="email" required />
+              </label>
+              <label>
+                O que você está procurando?
+                <select name="package" required>
+                  <option value="">Escolha uma opção</option>
+                  <option>Site de uma página</option>
+                  <option>Site completo</option>
+                  <option>Projeto personalizado</option>
+                </select>
+              </label>
+              <label>
+                Conte um pouco sobre o projeto
+                <textarea name="details" placeholder="O que seu site precisa fazer?" required></textarea>
+              </label>
+              <button class="button" type="submit">✉ Enviar pedido de orçamento</button>
+            </form>
+          </div>
+        </section>
+
+        <footer class="statusbar">
+          <span>Pronto</span>
+          <span>Feito com carinho, pixel por pixel.</span>
+        </footer>
+      </main>
+    </div>
+    <div class="desktop-note">C:\DEV&gt; · aceitando novos projetos</div>
+  </body>
+</html>

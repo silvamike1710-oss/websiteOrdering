@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#9CA3EF" />
+    <title>C:\DEV&gt; — Custom sites, made to order</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <div class="window">
+      <header class="titlebar">
+        <div class="title">
+          <span class="title-icon" aria-hidden="true">W</span>
+          <span>C:\DEV&gt; — Order Desk</span>
+        </div>
+        <div class="window-controls" aria-hidden="true">
+          <span>_</span><span>□</span><span>×</span>
+        </div>
+      </header>
+      <nav class="menubar" aria-label="Main navigation">
+        <a href="#services">Services</a>
+        <a href="#work">Check my work</a>
+        <a href="#order">Place an order</a>
+        <a href="#faq">FAQ</a>
+        <a class="language-switch" href="index.html?lang=en" lang="en" aria-current="page">English</a>
+        <a href="pt-br.html?lang=pt-BR" lang="pt-BR">Português</a>
+      </nav>
+
+      <main>
+        <section class="hero" aria-labelledby="hero-title">
+          <div>
+            <p class="eyebrow">Independent web design &amp; development</p>
+            <h1 id="hero-title">A website that feels like <em>you.</em></h1>
+            <p>
+              I design and build fast, friendly websites for small businesses,
+              creative people, and big ideas. Tell me what you need and we'll
+              make a plan.
+            </p>
+          </div>
+          <div class="hero-sticker" aria-label="Made just for you">
+            MADE<br />JUST FOR<br />YOU :)
+          </div>
+        </section>
+
+        <section class="section" id="work" aria-labelledby="work-title">
+          <div class="section-heading">
+            <h2 id="work-title">Check my work</h2>
+          </div>
+          <div class="work-grid">
+            <a class="work-item" href="https://silvamike1710-oss.github.io/barbershop-3/#" target="_blank" rel="noopener noreferrer">
+              Barbershop — Project 3
+            </a>
+            <a class="work-item" href="https://silvamike1710-oss.github.io/BolosDaSalette/" target="_blank" rel="noopener noreferrer">
+              Bolos da Salette
+            </a>
+            <a class="work-item" href="https://silvamike1710-oss.github.io/barbershop-2/" target="_blank" rel="noopener noreferrer">
+              Barbershop — Project 2
+            </a>
+            <a class="work-item" href="https://silvamike1710-oss.github.io/scheduling-project/#agendar" target="_blank" rel="noopener noreferrer">
+              Scheduling Project
+            </a>
+            <a class="work-item" href="https://silvamike1710-oss.github.io/barbershop-1/" target="_blank" rel="noopener noreferrer">
+              Barbershop — Project 1
+            </a>
+          </div>
+        </section>
+
+        <section class="section" id="services" aria-labelledby="services-title">
+          <div class="section-heading">
+            <h2 id="services-title">Pick your starting point</h2>
+          </div>
+          <div class="packages">
+            <article class="package">
+              <h3>The One-Pager</h3>
+              <p class="price">From $500</p>
+              <p>A polished, single-page home for your work, services, or event.</p>
+            </article>
+            <article class="package">
+              <h3>The Small Site</h3>
+              <p class="price">From $1,200</p>
+              <p>A custom multi-page website with room for your whole story.</p>
+            </article>
+            <article class="package">
+              <h3>Something Custom</h3>
+              <p class="price">Let's talk</p>
+              <p>Online shops, special features, redesigns, and other ideas.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="faq" aria-labelledby="faq-title">
+          <div class="section-heading">
+            <h2 id="faq-title">Frequently asked questions</h2>
+          </div>
+          <div class="faq-list">
+            <details class="faq-item">
+              <summary>How long does a website take?</summary>
+              <p>Most projects take about 2–4 weeks, depending on the scope and how quickly content and feedback are ready.</p>
+            </details>
+            <details class="faq-item">
+              <summary>What do you need from me to get started?</summary>
+              <p>A little about your goals, the pages or features you need, and any text, images, or brand materials you already have.</p>
+            </details>
+            <details class="faq-item">
+              <summary>Can I request changes after launch?</summary>
+              <p>Yes. We’ll review the finished site together, and you can ask about updates or ongoing support whenever you need them.</p>
+            </details>
+          </div>
+        </section>
+
+        <section class="section" id="order" aria-labelledby="order-title">
+          <div class="section-heading">
+            <h2 id="order-title">Start an order</h2>
+          </div>
+          <div class="order-panel">
+            <div class="order-copy">
+              <p class="eyebrow">No pressure, just a first hello</p>
+              <h3>Tell me a little about your project.</h3>
+              <p>
+                Share the basics and your email app will open with a ready-to-send
+                project request. I'll get back to you to talk through next steps.
+              </p>
+            </div>
+            <form id="order-form">
+              <label>
+                Your name
+                <input name="name" autocomplete="name" required />
+              </label>
+              <label>
+                Your email
+                <input name="email" type="email" autocomplete="email" required />
+              </label>
+              <label>
+                What are you looking for?
+                <select name="package" required>
+                  <option value="">Choose a starting point</option>
+                  <option>The One-Pager</option>
+                  <option>The Small Site</option>
+                  <option>Something Custom</option>
+                </select>
+              </label>
+              <label>
+                A few project details
+                <textarea name="details" placeholder="What does your website need to do?" required></textarea>
+              </label>
+              <button class="button" type="submit">✉ Send project request</button>
+            </form>
+          </div>
+        </section>
+
+        <footer class="statusbar">
+          <span>Ready</span>
+          <span>Made with care, one pixel at a time.</span>
+        </footer>
+      </main>
+    </div>
+    <div class="desktop-note">C:\DEV&gt; · taking new projects</div>
+  </body>
+</html>
