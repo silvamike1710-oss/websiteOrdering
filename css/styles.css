@@ -215,7 +215,10 @@
       .work-item {
         min-height: 74px;
         display: flex;
+        flex-direction: column;
         align-items: center;
+        justify-content: center;
+        gap: 4px;
         padding: 17px;
         background: var(--gray);
         border: 2px solid;
@@ -223,6 +226,11 @@
         color: var(--ink);
         font-weight: 700;
         text-decoration: none;
+      }
+
+      .work-tier {
+        color: var(--navy);
+        font-size: 12px;
       }
 
       .work-item:hover {
@@ -263,6 +271,16 @@
       .package p {
         margin-bottom: 0;
         color: #363636;
+      }
+
+      .package ul {
+        margin: 10px 0 0;
+        padding-left: 20px;
+        color: #363636;
+      }
+
+      .package li + li {
+        margin-top: 5px;
       }
 
       .faq-list {

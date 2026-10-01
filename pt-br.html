@@ -22,6 +22,7 @@
       </header>
       <nav class="menubar" aria-label="Navegação principal">
         <a href="#services">Serviços</a>
+        <a href="addons.html">Adicionais</a>
         <a href="#work">Confira meu trabalho</a>
         <a href="#order">Faça seu pedido</a>
         <a href="#faq">Dúvidas</a>
@@ -50,20 +51,25 @@
             <h2 id="work-title">Confira meu trabalho</h2>
           </div>
           <div class="work-grid">
-            <a class="work-item" href="https://silvamike1710-oss.github.io/barbershop-3/#" target="_blank" rel="noopener noreferrer">
-              Barbearia — Projeto 3
-            </a>
-            <a class="work-item" href="https://silvamike1710-oss.github.io/BolosDaSalette/" target="_blank" rel="noopener noreferrer">
-              Bolos da Salette
+            <a class="work-item" href="https://silvamike1710-oss.github.io/barbershop-1/" target="_blank" rel="noopener noreferrer">
+              <span>Barbearia — Projeto 1</span>
+              <span class="work-tier">starter.exe</span>
             </a>
             <a class="work-item" href="https://silvamike1710-oss.github.io/barbershop-2/" target="_blank" rel="noopener noreferrer">
-              Barbearia — Projeto 2
+              <span>Barbearia — Projeto 2</span>
+              <span class="work-tier">starter.exe</span>
+            </a>
+            <a class="work-item" href="https://silvamike1710-oss.github.io/barbershop-3/#" target="_blank" rel="noopener noreferrer">
+              <span>Barbearia — Projeto 3</span>
+              <span class="work-tier">starter.exe</span>
+            </a>
+            <a class="work-item" href="https://silvamike1710-oss.github.io/BolosDaSalette/" target="_blank" rel="noopener noreferrer">
+              <span>Bolos da Salette</span>
+              <span class="work-tier">business.exe</span>
             </a>
             <a class="work-item" href="https://silvamike1710-oss.github.io/scheduling-project/#agendar" target="_blank" rel="noopener noreferrer">
-              Projeto de agendamento
-            </a>
-            <a class="work-item" href="https://silvamike1710-oss.github.io/barbershop-1/" target="_blank" rel="noopener noreferrer">
-              Barbearia — Projeto 1
+              <span>Projeto de agendamento</span>
+              <span class="work-tier">business.exe</span>
             </a>
           </div>
         </section>
@@ -74,21 +80,40 @@
           </div>
           <div class="packages">
             <article class="package">
-              <h3>Site de uma página</h3>
-              <p class="price">A partir de R$ 650</p>
-              <p>Uma página caprichada para apresentar seu trabalho, serviço ou evento.</p>
+              <h3>starter.exe</h3>
+              <p class="price">R$ 650</p>
+              <ul>
+                <li>1 página responsiva</li>
+                <li>Botão de contato para WhatsApp ou Instagram</li>
+                <li>SEO básico e carregamento rápido</li>
+                <li>1 revisão</li>
+                <li>Entrega entre 5 e 7 dias</li>
+              </ul>
             </article>
             <article class="package">
-              <h3>Site completo</h3>
-              <p class="price">A partir de R$ 2.000</p>
-              <p>Um site personalizado com várias páginas para contar sua história.</p>
+              <h3>business.exe</h3>
+              <p class="price">R$ 850</p>
+              <ul>
+                <li>Até 5 páginas: home, sobre, serviços, portfólio/menu e contato</li>
+                <li>Tudo do starter.exe</li>
+                <li>Google Maps, analytics, domínio e configuração da hospedagem</li>
+                <li>2 revisões</li>
+                <li>Entrega entre 10 e 14 dias</li>
+              </ul>
             </article>
             <article class="package">
-              <h3>Projeto personalizado</h3>
-              <p class="price">Vamos conversar</p>
-              <p>Lojas virtuais, recursos especiais, reformulações e outras ideias.</p>
+              <h3>pro.exe</h3>
+              <p class="price">R$ 1.200</p>
+              <ul>
+                <li>Web app ou sistema customizado completo</li>
+                <li>Encomendas, agendamentos e dashboard para clientes</li>
+                <li>Painel administrativo simples ou integração com API</li>
+                <li>Vídeo de treinamento ou assistência com o sistema</li>
+                <li>Entrega entre 3 e 6 semanas</li>
+              </ul>
             </article>
           </div>
+          <p>Conheça também os <a href="addons.html">adicionais por R$ 150 cada</a>.</p>
         </section>
 
         <section class="section" id="faq" aria-labelledby="faq-title">
@@ -137,9 +162,10 @@
                 O que você está procurando?
                 <select name="package" required>
                   <option value="">Escolha uma opção</option>
-                  <option>Site de uma página</option>
-                  <option>Site completo</option>
-                  <option>Projeto personalizado</option>
+                  <option>starter.exe — R$ 650</option>
+                  <option>business.exe — R$ 850</option>
+                  <option>pro.exe — R$ 1.200</option>
+                  <option>Adicionais</option>
                 </select>
               </label>
               <label>
