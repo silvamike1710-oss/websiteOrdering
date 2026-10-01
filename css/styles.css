@@ -62,10 +62,11 @@
       }
 
       .title-icon {
-        display: inline-grid;
-        width: 18px;
-        height: 18px;
-        place-items: center;
+        display: block;
+        width: 28px;
+        height: 28px;
+        object-fit: cover;
+        border-radius: 6px;
         background: var(--gray);
         color: var(--navy);
         border: 1px solid;
